@@ -26,6 +26,13 @@ body {
     width: 100%;
 }
 
+.meu-botao{
+    background-image: url("img/higor-milani-dev.svg");
+}
+
+.meu-botao:hover{
+    background-image: url("img/background-indice.png");
+}
 
 /*//////////////////////////////////////////////////////////////////////////////////////////*/
 

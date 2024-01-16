@@ -40,11 +40,22 @@ var navElement = document.querySelector('.pop-up');
     
     <h2 class="indice-destaque">Índice</h2>
     <details>
-        <summary> <i id="indice"  class="fa-solid fa-book"></i>TODAS AS LENDAS</summary>
-        <ul>
-            <li><a href="produtos.html#d1">Destaques em Livros</a></li>
-        </ul>
+        <summary> <i id="indice"  class="fa-solid fa-book"></i><a href="../../pages/todas-as-lendas/todas-as-lendas.html">TODAS AS LENDAS</a></summary>
     </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <details>
         <summary> <i id="indice"  class="fa-solid fa-book"></i>MISCELÂNEAS</summary>
         <ul>
