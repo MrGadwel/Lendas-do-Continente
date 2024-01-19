@@ -40,104 +40,47 @@ var navElement = document.querySelector('.pop-up');
     
     <h2 class="indice-destaque">Índice</h2>
     <details>
-        <summary> <i id="indice"  class="fa-solid fa-book"></i><a href="../../pages/todas-as-lendas/todas-as-lendas.html">TODAS AS LENDAS</a></summary>
-    </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <details>
-        <summary> <i id="indice"  class="fa-solid fa-book"></i>MISCELÂNEAS</summary>
-        <ul>
-            <li><a href="produtos.html#d1">Destaques em Livros</a></li>
-        </ul>
-    </details>
-
-    <details>
-        <summary><i id="indice"  class="fa-solid fa-khanda"></i>ARMAS</summary>
-        <ul>
-            <li><a href="produtos.html#d1">Destaques em Livros</a></li>
-        </ul>
-    </details>
-
-    <details>
-        <summary><i id="indice"  class="fa-solid fa-dice-d20"></i>OBJETOS</summary>
-        <ul>
-            <li><a href="produtos.html#d1">Destaques em Livros</a></li>
-        </ul>
-    </details>
-
-    <details>
-        <summary><i id="indice"  class="fa-solid fa-dragon"></i>CRIATURAS</summary>
-        <ul>
-            <li><a href="../../pages/draconianos-altos/draconianos-altos.html">Draconianos Altos</a></li>
-        </ul>
-    </details>
-
-    <details>
-        <summary><i id="indice"  class="fa-solid fa-clover"></i>PLANTAS</summary>
-        <ul>
-            <li><a href="produtos.html#d1">Destaques em Livros</a></li>
-        </ul>
-    </details>
-
-    <details>
-        <summary><i id="indice" class="fa-solid fa-ankh"></i>CULTOS E CRENÇAS</summary>
-        <ul>
-            <li><a href="produtos.html#d1">Destaques em Livros</a></li>
-        </ul>
-    </details>
-
-    <details>
-        <summary><i id="indice" class="fa-brands fa-studiovinari"></i>DEIDADES</summary>
-        <ul>
-            <li><a href="produtos.html#d1">Destaques em Livros</a></li>
-        </ul>
-    </details>
-
-    <details>
-        <summary><i id="indice" class="fa-solid fa-feather"></i>TEXTOS</summary>
-        <ul>
-            <li><a href="produtos.html#d1">Destaques em Livros</a></li>
-        </ul>
-    </details>
-
-    <details>
-        <summary><i id="indice" class="fa-solid fa-chess-rook"></i>LUGARES</summary>
-        <ul>
-            <li><a href="produtos.html#d1">Destaques em Livros</a></li>
-        </ul>
-    </details>
-
-    <details>
-        <summary><i id="indice" class="fa-solid fa-fire-flame-curved"></i>MAGIA</summary>
-        <ul>
-            <li><a href="produtos.html#d1">Destaques em Livros</a></li>
-        </ul>
-    </details>
-
-    <details>
-        <summary><i id="indice" class="fa-solid fa-cubes-stacked"></i>MATERIAIS</summary>
-        <ul>
-            <li><a href="produtos.html#d1">Destaques em Livros</a></li>
-        </ul>
+        <summary> <i id="indice"  class="fa-solid fa-book"></i>TODAS AS LENDAS</summary>
+            <ul>
+                <li> <i id="indice"  class="fa-solid fa-book"></i><a href="../../../pages/todas-as-lendas/lenda-dentes-e-garras/lenda-dentes-e-garras.html">DENTES E GARRAS</a></li>
+                <li> <i id="indice"  class="fa-solid fa-book"></i><a href="../../../pages/todas-as-lendas/lenda-outras/lenda-outras.html">Outras Lendas</a></li>
+            </ul>
     </details>
     <details>
-        <summary><i id="indice" class="fa-solid fa-dragon"></i>Pessoas</summary>
-        <ul>
-            <li><a href="produtos.html#d1">Destaques em Livros</a></li>
-        </ul>
+        <summary> <i class="fa-solid fa-shield-halved"></i> ARMAS</summary>
+            <ul>
+                <li> <i class="fa-solid fa-eye"></i><a href="../../../pages/armas/espada-claire/espada-claire.html"> Espada</a></li>
+            </ul>
     </details>
+    <details>
+        <summary> <i class="fa-solid fa-dragon"></i> CRIATURS</summary>
+            <ul>
+                <li> <i class="fa-solid fa-eye"></i><a href="../../../pages/criaturas/berserker/berserker.html"> Berserkers</a></li>
+            </ul>
+    </details>
+    <details>
+        <summary> <i class="fa-regular fa-map"></i> LUGARES</summary>
+            <ul>
+                <li> <i class="fa-regular fa-map"></i><a href="../../../pages/lugares/kohan/kohan.html"> Kohan</a></li>
+            </ul>
+    </details>
+    <details>
+        <summary> <i class="fa-solid fa-square"></i> MATERIAIS</summary>
+            <ul>
+                <li> <i class="fa-solid fa-square"></i><a href="../../../pages/materiais/aço negro/aço negro.html"> Aço Negro</a></li>
+                <li> <i class="fa-solid fa-square"></i><a href="../../../pages/materiais/heilig/heilig.html">Heilig</a></li>
+            </ul>
+    </details>
+    <details>
+        <summary> <i class="fa-solid fa-newspaper"></i></i> REGISTROS</summary>
+            <ul>
+                <li> <i class="fa-solid fa-newspaper"></i><a href="../../../pages/registros/diário de ordock/diário de ordock_01.html"> Diário de Ordock</a></li>
+            </ul>
+    </details>
+
+
+
+    
     `;
 
     ////////////////////////////////////////////////////////////////////////////////////////////

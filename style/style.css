@@ -26,6 +26,12 @@ body {
     width: 100%;
 }
 
+.img_lado_esquerdo {
+    padding: 20px;
+    float: left;
+}
+
+
 .meu-botao{
     background-image: url("img/higor-milani-dev.svg");
 }
@@ -91,6 +97,9 @@ body {
     text-align: right;
 }
 
+.open-book .chapter-title {
+    text-align:center;
+}
 
 .open-book .chapter-title:before {
     left: 0;
