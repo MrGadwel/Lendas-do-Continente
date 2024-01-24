@@ -26,11 +26,18 @@ body {
     width: 100%;
 }
 
+/* Códigos adicionados pelo gado*/
+
 .img_lado_esquerdo {
     padding: 20px;
     float: left;
 }
 
+.img_index {
+    max-width: 10%;
+}
+
+/* Fim dos códigos adicionados pelo gado*/
 
 .meu-botao{
     background-image: url("img/higor-milani-dev.svg");
