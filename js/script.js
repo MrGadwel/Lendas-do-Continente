@@ -35,7 +35,7 @@ var navElement = document.querySelector('.pop-up');
 
     // MUDAR INDICE AQUI
     var novoConteudo = `
-    <a class="home-i" href="../../../index.html" ><i class='bx bxs-home'></i>Home</a>
+    <a class="home-i" href="../../../index.html" ><i class='bx bxs-home'></i>Início</a>
     <span class="close">×</span>
     
     <h2 class="indice-destaque">Índice</h2>
@@ -68,7 +68,7 @@ var navElement = document.querySelector('.pop-up');
         <summary> <i class="fa-solid fa-square"></i> MATERIAIS</summary>
             <ul>
                 <li> <i class="fa-solid fa-square"></i><a href="../../../pages/materiais/aço negro/aço negro.html"> Aço Negro</a></li>
-                <li> <i class="fa-solid fa-square"></i><a href="../../../pages/materiais/heilig/heilig.html">Heilig</a></li>
+                <li> <i class="fa-solid fa-square"></i><a href="../../../pages/materiais/heilig/heilig.html"> Heilig</a></li>
             </ul>
     </details>
     <details>
