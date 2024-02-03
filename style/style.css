@@ -26,7 +26,23 @@ body {
     width: 100%;
 }
 
-/* Códigos adicionados pelo gado*/
+/*///////////////////////// Códigos adicionados pelo gado ////////////////////////////////////*/
+
+#tabela_meio {
+    margin: 0 auto;
+  }
+
+.redes_s {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.redes_s img {
+  margin: 0 10px;
+}
+
 
 .img_lado_esquerdo {
     padding: 20px;
@@ -37,7 +53,59 @@ body {
     max-width: 10%;
 }
 
-/* Fim dos códigos adicionados pelo gado*/
+.texto_cabeçalho {
+    font-size: 100%;
+}
+
+.nav_cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2b2b2b;
+    font-size: 140%;
+    max-width: 100%;
+  }
+  
+  .link_menutopo {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .link_menutopo:hover, .link_menutopo:active {
+    color: #13e224;
+  }
+  
+  .livros:hover, .livros:active {
+    box-shadow: 0 0 10px 5px #ffffff;
+  }
+  
+  .fanarts:hover, .fanarts:active {
+    box-shadow: 0 0 10px 5px #ffffff;
+  }
+  
+  .textos:hover, .textos:active {
+    box-shadow: 0 0 10px 5px #ffffff;
+  }
+
+  .imagem:hover {
+    box-shadow: 0 0 10px 5px #ffffff;
+  }
+
+  .minha-lista {
+    list-style-type: none;
+  }
+ 
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .container2 img {
+    max-height: 300px;
+    margin: 5px;
+  }
+
+/*//////////////////////// Fim dos códigos adicionados pelo gado /////////////////////////////////////*/
 
 .meu-botao{
     background-image: url("img/higor-milani-dev.svg");
@@ -327,7 +395,7 @@ img{
     background-color: antiquewhite;
     display: block;
     right: 2vw;
-    top: 2vh;
+    top: 53px;
     padding: 10px;
     border-radius: 20px;
     cursor: pointer;
@@ -537,7 +605,16 @@ a{
     font-size: 18px;
 }
 
+a{
+    font-size: 18px;
 }
 
+}
 
+/* PRA VER AS DIMENSÕES
 
+*{
+    border: 2px solid;
+}
+
+*/
