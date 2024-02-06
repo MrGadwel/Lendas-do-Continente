@@ -72,8 +72,8 @@ var header = document.querySelector('.header');
     <details>
         <summary> <i class="fa-regular fa-map"></i> LUGARES</summary>
             <ul>
-                <li> <i class="fa-regular fa-map"></i><a href="../../../lugares/hugel/hugel.html"> Hugel</a></li>
-                <li> &nbsp &nbsp &nbsp<i class="fa-regular fa-map"></i><a href="../../../lugares/kohan/kohan.html"> Kohan</a></li>
+                <li> <i class="fa-regular fa-map"></i><a href="../../../lugares/kohan/kohan.html"> Kohan</a></li>
+                <li> &nbsp &nbsp &nbsp<i class="fa-regular fa-map"></i><a href="../../../lugares/hugel/hugel.html"> Hugel</a></li>
             </ul>
     </details>
     <details>
