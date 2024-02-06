@@ -53,7 +53,8 @@ var header = document.querySelector('.header');
             <ul>
                 <li> <i class="fa-solid fa-fire"></i><a href="../../../almas/claire/claire.html"> Claire</a></li>
                 <li> <i class="fa-solid fa-fire"></i><a href="../../../almas/glen/glen.html"> Glen</a></li>
-
+                <li> <i class="fa-solid fa-fire"></i><a href="../../../almas/grian/grian.html"> Grian</a></li>
+                <li> <i class="fa-solid fa-fire"></i><a href="../../../almas/nutlos/nutlos.html"> Nutlos</a></li>
             </ul>
     </details>
     <details>
@@ -67,6 +68,7 @@ var header = document.querySelector('.header');
         <summary> <i class="fa-solid fa-dragon"></i> CRIATURS</summary>
             <ul>
                 <li> <i class="fa-solid fa-eye"></i><a href="../../../criaturas/berserker/berserker.html"> Berserkers</a></li>
+                <li> <i class="fa-solid fa-eye"></i><a href="../../../criaturas/raaksha/raaksha.html"> Raaksha</a></li>
             </ul>
     </details>
     <details>
@@ -74,6 +76,7 @@ var header = document.querySelector('.header');
             <ul>
                 <li> <i class="fa-regular fa-map"></i><a href="../../../lugares/kohan/kohan.html"> Kohan</a></li>
                 <li> &nbsp &nbsp &nbsp<i class="fa-regular fa-map"></i><a href="../../../lugares/hugel/hugel.html"> Hugel</a></li>
+                <li> &nbsp &nbsp &nbsp<i class="fa-regular fa-chess-rook"></i><a href="../../../lugares/stado/stado.html"> Stado</a></li>
             </ul>
     </details>
     <details>
