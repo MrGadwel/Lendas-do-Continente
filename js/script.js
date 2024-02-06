@@ -49,6 +49,14 @@ var header = document.querySelector('.header');
             </ul>
     </details>
     <details>
+        <summary> <i class="fa-solid fa-fire"></i> ALMAS</summary>
+            <ul>
+                <li> <i class="fa-solid fa-fire"></i><a href="../../../almas/claire/claire.html"> Claire</a></li>
+                <li> <i class="fa-solid fa-fire"></i><a href="../../../almas/glen/glen.html"> Glen</a></li>
+
+            </ul>
+    </details>
+    <details>
         <summary> <i class="fa-solid fa-shield-halved"></i> ARMAS</summary>
             <ul>
                 <li> <i class="fa-solid fa-eye"></i><a href="../../../armas/espada-claire/espada-claire.html"> Espada</a></li>
@@ -64,7 +72,8 @@ var header = document.querySelector('.header');
     <details>
         <summary> <i class="fa-regular fa-map"></i> LUGARES</summary>
             <ul>
-                <li> <i class="fa-regular fa-map"></i><a href="../../../lugares/kohan/kohan.html"> Kohan</a></li>
+                <li> <i class="fa-regular fa-map"></i><a href="../../../lugares/hugel/hugel.html"> Hugel</a></li>
+                <li> &nbsp &nbsp &nbsp<i class="fa-regular fa-map"></i><a href="../../../lugares/kohan/kohan.html"> Kohan</a></li>
             </ul>
     </details>
     <details>
@@ -75,7 +84,7 @@ var header = document.querySelector('.header');
             </ul>
     </details>
     <details>
-        <summary> <i class="fa-solid fa-newspaper"></i></i> REGISTROS</summary>
+        <summary> <i class="fa-solid fa-pen-nib"></i> REGISTROS</summary>
             <ul>
                 <li> <i class="fa-solid fa-newspaper"></i><a href="../../../registros/diário de ordock/diário de ordock_01.html"> Diário de Ordock</a></li>
             </ul>
@@ -103,7 +112,7 @@ var header = document.querySelector('.header');
 
     <div class="foooter">
     <div class="footer-gad">
-        <H2>LENDAS DO CONTINENTE por Gadwel</H2>
+        <H2>LENDAS DO CONTINENTE por <a href="https://gadwel.carrd.co/" style="background: none;" target="_blank" class="link_gado">Gadwel</a></H2>
         <br>
         <div class="links">
         
@@ -131,7 +140,7 @@ var header = document.querySelector('.header');
             <p style="text-indent:0px;" class="texto_cabeçalho"><b><a href="../../index.html" class="link_menutopo">INÍCIO</a></b></p>
             <p style="text-indent:0px;" class="texto_cabeçalho"><b><a href="../../todas-as-lendas/lenda-dentes-e-garras/lenda-dentes-e-garras.html" class="link_menutopo">DENTES E GARRAS</a></b></p>
             <p style="text-indent:0px;" class="texto_cabeçalho"><b><a href="../../fanarts/fanarts.html" class="link_menutopo">FANARTS</a></b></p>
-            <p style="text-indent:0px;" class="texto_cabeçalho"><b><a href="../../_debug/_debug.html" class="link_menutopo">?</a></b></p>
+            <p style="text-indent:0px;" class="texto_cabeçalho"><b><a href="../../debug/debug.html" class="link_menutopo">?</a></b></p>
     </nav>
     
     

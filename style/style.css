@@ -32,6 +32,10 @@ body {
     margin: 0 auto;
   }
 
+.txt_atencao {
+    color: #a30101
+}
+
 .redes_s {
   display: flex;
   flex-wrap: wrap;
@@ -56,6 +60,15 @@ body {
 .texto_cabeçalho {
     font-size: 100%;
 }
+
+.link_gado {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .link_gado:hover, .link_gado:active {
+    color: #b808fd;
+  }
 
 .nav_cabeçalho {
     display: flex;
