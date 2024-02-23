@@ -118,6 +118,31 @@ body {
     margin: 5px;
   }
 
+  .container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0px 0px 6px rgb(255, 255, 255);
+    background-color: #1f1f1f;
+  }
+  
+  .container3 img {
+    max-height: 200px;
+    margin: 10px;
+  }
+
+  .td_topo_largo {
+    padding-top: 20px;
+  }
+
+  .img_meio_meio {
+    justify-content: center;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
 /*//////////////////////// Fim dos códigos adicionados pelo gado /////////////////////////////////////*/
 
 .meu-botao{
@@ -292,6 +317,7 @@ details ul:hover{
 }
 
 summary{
+    all: unset;
     list-style-type:none ;
     cursor: pointer;
 }
@@ -620,6 +646,10 @@ a{
 
 a{
     font-size: 18px;
+}
+
+table{
+    width: 100%;
 }
 
 }
