@@ -111,11 +111,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 85%;
+    margin: 0 auto;
   }
   
   .container2 img {
-    max-height: 300px;
-    margin: 5px;
+    height: 300px;
+    margin: 3px 6px 3px 6px;
   }
 
   .container3 {
@@ -131,6 +133,17 @@ body {
     margin: 10px;
   }
 
+  .container4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .container4 img {
+    height: 300px;
+    margin: 3px 6px 3px 6px;
+  }
+
   .td_topo_largo {
     padding-top: 20px;
   }
@@ -142,6 +155,121 @@ body {
   ul {
     list-style-type: none;
   }
+
+  .cards .card:hover {
+    transform: scale(1.1, 1.1);
+}
+
+  .cards:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+}
+
+  .promocao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .promocao:hover > :not(:hover) {
+	opacity: 0.4;
+    filter:grayscale(70%) blur(3px);
+ }
+
+
+  .img_promo {
+    transition: all 0.5s ease;
+    
+  }
+  
+  .img_promo.esquerda,
+  .img_promo.direita {
+    width: 23%;
+  }
+  
+  .img_promo.centro {
+    width: 50%;
+  }
+  
+  .img_promo.centro:hover {
+    filter: drop-shadow(0px 0px 5px rgba(239, 255, 9, 0.664));
+    transform: scale(1.1);
+  }
+
+  .img_promo:hover {
+    transform: scale(1.1);
+  }
+  
+  .img_promo:hover + .img_promo,
+  .img_promo:hover ~ .img_promo {
+    transform: scale(0.9);
+  }
+
+  .img_cresce_105 {
+    transition: all 0.5s ease;
+  }
+  
+  .img_cresce_105:hover {
+    transform: scale(1.05);
+  }
+
+  .img_cresce_110 {
+    transition: all 0.5s ease;
+  }
+  
+  .img_cresce_110:hover {
+    transform: scale(1.1);
+  }
+
+  .pb_sepia {
+    filter: grayscale(100%);
+    opacity: 0.7;
+  }
+
+  :root {
+    scroll-behavior: smooth;
+  }
+
+  .img_borda_10 {
+    margin-top: 100px;
+  }
+
+  .txt_portal{
+    background-image: url("fire.gif");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    }
+
+
+
+    .redes_container {
+    display: flex;
+    }
+      
+    .redes_esquerda, .redes_direita {
+    width: 50%;
+    padding: 20px;
+    }
+      
+    .redes_esquerda {
+    text-align: right;
+    }
+      
+    .redes_direita {
+    text-align: left;
+    }
+      
+    .redes_img {
+    margin: 0 1%;
+    }
+      
+      
+    .redes_h1 {
+    margin-bottom: 20px;
+    }
+
 
 /*//////////////////////// Fim dos códigos adicionados pelo gado /////////////////////////////////////*/
 
@@ -652,7 +780,62 @@ table{
     width: 100%;
 }
 
+.promocao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .img_promo {
+    transition: all 0.5s ease;
+  }
+  
+  .img_promo.esquerda,
+  .img_promo.direita {
+    width: 80%;
+  }
+  
+  .img_promo.centro {
+    width: 100%;
+  }
+  
+  .img_promo.centro:hover {
+    filter: drop-shadow(0px 0px 5px rgba(239, 255, 9, 0.664));
+    transform: scale(1.1);
+  }
+
+  .img_promo:hover {
+    transform: scale(1.1);
+  }
+  
+  .img_promo:hover + .img_promo,
+  .img_promo:hover ~ .img_promo {
+    transform: scale(0.9);
+  }
+
+  .redes_img {
+    margin: 0 1%;
+    width: 20%
+    }
+
+  .container2 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .container2 img {
+    width: auto;
+    height: 10em;
+    margin: 3px 6px 3px 6px;
+  }
+
 }
+
+
+
+
+
 
 /* PRA VER AS DIMENSÕES
 

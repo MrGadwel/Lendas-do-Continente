@@ -65,7 +65,7 @@ var header = document.querySelector('.header');
             </ul>
     </details>
     <details>
-        <summary> <i class="fa-solid fa-dragon"></i> CRIATURS</summary>
+        <summary> <i class="fa-solid fa-dragon"></i> CRIATURAS</summary>
             <ul>
                 <li> <i class="fa-solid fa-eye"></i><a href="../../../criaturas/berserker/berserker.html"> Berserkers</a></li>
                 <li> <i class="fa-solid fa-eye"></i><a href="../../../criaturas/raaksha/raaksha.html"> Raaksha</a></li>
@@ -98,32 +98,38 @@ var header = document.querySelector('.header');
     
     `;
     var rodape=`
-    
+
     <div><H2>&nbsp</H2></div>
-    <table id="tabela_meio"><tr><td>
-
-        <div class="redes_s" id="tabela_meio">
-
-            <a href="https://discord.gg/w3wGyfAT8s" style="background: none;" target="_blank"><img src="../../img/Discord.png" alt="" width="50px"></a>
-            <a href="https://www.instagram.com/lendasdocontinente/" style="background: none;" target="_blank"><img src="../../img/Instagram.png" alt="" width="50px"></a>
-            <a href="https://twitter.com/lendacontinente" style="background: none;" target="_blank"><img src="../../img/X.png" alt="" width="50px"></a>
-
+    <hr>
+    <div class="redes_container">
+        <div class="redes_esquerda">
+          <h1 class="redes_h1">Gadwel</h1>
+          <a href="https://www.youtube.com/gadwel" style="background: none;" target="_blank">
+            <img class="redes_img img_cresce_110" src="../../img/YouTube.png" alt="Imagem 1" width="10%">
+          </a>
+          <a href="https://discord.gg/w3wGyfAT8s" style="background: none;" target="_blank">
+            <img class="redes_img img_cresce_110" src="../../img/Discord.png" alt="Imagem 3" width="10%">
+          </a>
+          <a href="https://www.instagram.com/mrgadwel/" style="background: none;" target="_blank">
+            <img class="redes_img img_cresce_110" src="../../img/Instagram.png" alt="Imagem 2" width="10%">
+          </a>
         </div>
-
-    </td></tr></table>
-
-
-    <div class="foooter">
-    <div class="footer-gad">
-        <H2>LENDAS DO CONTINENTE por <a href="https://gadwel.carrd.co/" style="background: none;" target="_blank" class="link_gado">Gadwel</a></H2>
-        <br>
-        <div class="links">
-        
-            <a href="../index.html"><i class='bx bxs-home'></i></a>
-            <a href="https://gadwel.carrd.co/" target="_blank"><i class='bx bx-link-alt'></i></i></a>
+        <div class="redes_direita">
+          <h1 class="redes_h1">Lendas</h1>
+          <a href="https://www.instagram.com/lendasdocontinente/" style="background: none;" target="_blank">
+            <img class="redes_img img_cresce_110" src="../../img/Instagram.png" alt="Imagem 1" width="10%">
+          </a>
+          <a href="https://discord.gg/w3wGyfAT8s" style="background: none;" target="_blank">
+            <img class="redes_img img_cresce_110" src="../../img/Discord.png" alt="Imagem 2" width="10%">
+          </a>
+          <a href="http://127.0.0.1:5500/img/X.png" style="background: none;" target="_blank">
+            <img class="redes_img img_cresce_110" src="../../img/X.png" alt="Imagem 3" width="10%">
+          </a>
         </div>
-    </div>
-    
+      </div>
+
+
+
     <div class="dev">
         <h3>Site desenvolvido por <a class="h-name" href="https://higor-milani.dev/" target="_blank">Higor Milani</a></h3>
         <div class="dev-img">
@@ -143,7 +149,7 @@ var header = document.querySelector('.header');
             <p style="text-indent:0px;" class="texto_cabeçalho"><b><a href="../../index.html" class="link_menutopo">INÍCIO</a></b></p>
             <p style="text-indent:0px;" class="texto_cabeçalho"><b><a href="../../todas-as-lendas/lenda-dentes-e-garras/lenda-dentes-e-garras.html" class="link_menutopo">DENTES E GARRAS</a></b></p>
             <p style="text-indent:0px;" class="texto_cabeçalho"><b><a href="../../fanarts/fanarts.html" class="link_menutopo">FANARTS</a></b></p>
-            <p style="text-indent:0px;" class="texto_cabeçalho"><b><a href="../../debug/debug.html" class="link_menutopo">?</a></b></p>
+            <p style="text-indent:0px;" class="texto_cabeçalho"><b><a href="../../debug/debug.html" class="link_menutopo">VERSÕES</a></b></p>
     </nav>
     
     
