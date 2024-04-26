@@ -42,7 +42,7 @@ var header = document.querySelector('.header');
     
     <h2 class="indice-destaque">Índice</h2>
     <details>
-        <summary> <i id="indice"  class="fa-solid fa-book"></i>TODAS AS LENDAS</summary>
+        <summary> <i id="indice" class="fa-solid fa-book"></i>TODAS AS LENDAS</summary>
             <ul>
                 <li> <i id="indice"  class="fa-solid fa-book"></i><a href="../../../todas-as-lendas/lenda-dentes-e-garras/lenda-dentes-e-garras.html">DENTES E GARRAS</a></li>
                 <li> <i id="indice"  class="fa-solid fa-book"></i><a href="../../../todas-as-lendas/lenda-outras/lenda-outras.html">Outras Lendas</a></li>
@@ -105,25 +105,25 @@ var header = document.querySelector('.header');
         <div class="redes_esquerda">
           <h1 class="redes_h1">Gadwel</h1>
           <a href="https://www.youtube.com/gadwel" style="background: none;" target="_blank">
-            <img class="redes_img img_cresce_110" src="../../img/YouTube.png" alt="Imagem 1" width="10%">
+            <img class="redes_img img_cresce_110" src="../../img/YouTube.webp" alt="Imagem 1" width="10%">
           </a>
           <a href="https://discord.gg/w3wGyfAT8s" style="background: none;" target="_blank">
-            <img class="redes_img img_cresce_110" src="../../img/Discord.png" alt="Imagem 3" width="10%">
+            <img class="redes_img img_cresce_110" src="../../img/Discord.webp" alt="Imagem 3" width="10%">
           </a>
           <a href="https://www.instagram.com/mrgadwel/" style="background: none;" target="_blank">
-            <img class="redes_img img_cresce_110" src="../../img/Instagram.png" alt="Imagem 2" width="10%">
+            <img class="redes_img img_cresce_110" src="../../img/Instagram.webp" alt="Imagem 2" width="10%">
           </a>
         </div>
         <div class="redes_direita">
           <h1 class="redes_h1">Lendas</h1>
           <a href="https://www.instagram.com/lendasdocontinente/" style="background: none;" target="_blank">
-            <img class="redes_img img_cresce_110" src="../../img/Instagram.png" alt="Imagem 1" width="10%">
+            <img class="redes_img img_cresce_110" src="../../img/Instagram.webp" alt="Imagem 1" width="10%">
           </a>
           <a href="https://discord.gg/w3wGyfAT8s" style="background: none;" target="_blank">
-            <img class="redes_img img_cresce_110" src="../../img/Discord.png" alt="Imagem 2" width="10%">
+            <img class="redes_img img_cresce_110" src="../../img/Discord.webp" alt="Imagem 2" width="10%">
           </a>
-          <a href="http://127.0.0.1:5500/img/X.png" style="background: none;" target="_blank">
-            <img class="redes_img img_cresce_110" src="../../img/X.png" alt="Imagem 3" width="10%">
+          <a href="http://127.0.0.1:5500/img/X.webp" style="background: none;" target="_blank">
+            <img class="redes_img img_cresce_110" src="../../img/X.webp" alt="Imagem 3" width="10%">
           </a>
         </div>
       </div>
