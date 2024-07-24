@@ -46,3 +46,9 @@ h3 {
 .box2 {
     width: 100%;
 }
+
+@media only screen and ( max-width: 50em ) {
+    .box {
+        width: 95%;
+}   
+}
